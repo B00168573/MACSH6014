@@ -1,6 +1,6 @@
 
 def linearNumGenerator(a, seed, c, m, count):
-    vals = [seed]
+    vals = []
     for n in range(0, count):
         result = (a * seed + c) % m
         vals.append(result)
